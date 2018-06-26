@@ -1,0 +1,48 @@
+{
+  "name": "bulksms-json",
+  "version": "1.0.0",
+  "description": "Send text messages through bulksms.com's JSON web API from node.js.",
+  "main": "lib/BulkSMS.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarwinInnovation/bulksms-json.git"
+  },
+  "keywords": [
+    "sms",
+    "text",
+    "bulksms"
+  ],
+  "author": "Richard Miller-Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarwinInnovation/bulksms-json/issues"
+  },
+  "homepage": "https://github.com/DarwinInnovation/bulksms-json#readme",
+  "dependencies": {
+    "awesome-phonenumber": "^2.2.6",
+    "get-uid": "^1.0.1",
+    "lodash": "^4.17.10",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "uid": "0.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-xo": "^0.22.2",
+    "eslint-config-xo-space": "^0.18.0",
+    "eslint-plugin-import": "^2.12.0",
+    "jest": "^23.1.0",
+    "prettier": "^1.13.6"
+  },
+  "eslintConfig": {
+    "extends": "xo-space"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 100
+  }
+}
